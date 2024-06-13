@@ -22,8 +22,8 @@ function App() {
                 {" "}
                 Jimma University
               </a>
-              , specializing in Electrical Engineering. Then Earned my Masters
-              degree at
+              , specializing in Electrical and Computer Engineering (ECE). Then
+              Earned my Masters degree at
               <a
                 href="https://www.uni-rostock.de/en/"
                 target="_blank"
@@ -32,26 +32,25 @@ function App() {
                 {" "}
                 University of Rostock
               </a>
-              , specializing in IT specifically Natural Langauge processing
-              (NLP).
+              , specializing in IT (ML in Natural Langauge processing).
               <br />
               <br />
-              Currently I am a Computer Scinece graduate student at
+              Currently, I am a Computer Scinece graduate student at
               <a
                 href="https://www.ndsu.edu/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 {" "}
-                North Dakota State University (NDSU)
+                North Dakota State University
               </a>
+              .
             </p>
             <br />
             <p>
               I enjoy working on Web-App developmenet using
-              Python-Django-Postgre-React stack. I have a keen interest in AWS
-              Cloud, Databases, Data Engineering/Analytics, AI/ML especially
-              NLP.
+              Python-Django-Postgre-React. I have a keen interest in AWS Cloud,
+              Databases, Data Engineering/Analytics, AI/ML especially NLP.
             </p>
             <br />
             <p>
@@ -70,7 +69,6 @@ function App() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {" "}
                 GitHub
               </a>
               .
