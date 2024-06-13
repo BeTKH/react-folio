@@ -50,12 +50,12 @@ function App() {
             <p>
               I enjoy working on Web-App developmenet using
               Python-Django-Postgre-React stack. I have a keen interest in AWS
-              Cloud, Data Engineering/Analytics. In my spare time, I love to
-              Hike and Bike.
+              Cloud, Databases, Data Engineering/Analytics, AI/ML especially
+              NLP.
             </p>
             <br />
             <p>
-              You can find me on
+              In my spare time, I love to Hike and Bike. You can find me on
               <a
                 href="https://www.linkedin.com/in/btkh/"
                 target="_blank"
