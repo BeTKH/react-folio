@@ -9,47 +9,64 @@ function App() {
         <header className="intro">
           <img src={profilePic} alt="Profile" className="profile-pic" />
           <div className="intro-text">
-            <h1>Hi, I'm [Your Name]!</h1>
+            <h1>Hi, I'm Bekalu!</h1>
             <p>
-              I'm passionate about IT, development, and continuous learning. I
-              completed my degree at
+              I'm passionate about IT, development, and continuous learning.
+              <br />
+              <br />I completed my undergrad degree at
               <a
-                href="https://youruniversity.com"
+                href="https://ju.edu.et/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 {" "}
-                Your University
+                Jimma University
               </a>
-              , specializing in [Your Specialization].
+              , specializing in Electrical Engineering. Then Earned my Masters
+              degree at
+              <a
+                href="https://www.uni-rostock.de/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                University of Rostock
+              </a>
+              , specializing in IT specifically Natural Langauge processing
+              (NLP).
+              <br />
+              <br />
+              Currently I am a Computer Scinece graduate student at
+              <a
+                href="https://www.ndsu.edu/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                North Dakota State University (NDSU)
+              </a>
             </p>
+            <br />
             <p>
-              I enjoy working on projects related to [Your Interests] and have a
-              keen interest in [Other Interests]. In my spare time, I love
-              [Hobbies].
+              I enjoy working on Web-App developmenet using
+              Python-Django-Postgre-React stack. I have a keen interest in AWS
+              Cloud, Data Engineering/Analytics. In my spare time, I love to
+              Hike and Bike.
             </p>
+            <br />
             <p>
               You can find me on
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="https://www.linkedin.com/in/btkh/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 {" "}
                 LinkedIn
               </a>
-              ,
-              <a
-                href="https://twitter.com/yourprofile"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                Twitter
-              </a>
               , and
               <a
-                href="https://github.com/yourprofile"
+                href="https://github.com/BeTKH"
                 target="_blank"
                 rel="noopener noreferrer"
               >
