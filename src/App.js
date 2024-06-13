@@ -2,6 +2,27 @@ import React from "react";
 import "./App.css";
 import profilePic from "./profile-pic.jpg"; // Ensure this path matches the location of your image
 
+/* add responsive nav bar 
+
+- clicking to one of nav bar elements has scroll effect
+- nav bar becomes 3 bar (humberger) on small screen (phone):
+    - this nav bar closes when clicked elsewhere or itself 
+    - this nav bar expands vertically (opens up nav lists down)
+    - when opened the na bar 3 bars becomes X sign
+- nav bar turns into side menu on Laptop screen
+    - this side menu is open all the time
+    - clicking on one of the side menus's has a scroll effect
+
+- nav abr elements:
+    - About : has small description text about me & social links (Git, Linkedin)
+    - Education: University, country, Degree, GPA ( classes enjoyed under each uni)
+    - Projects: Overview of projects & link to Git 
+    - Experience: work experience 
+    - Skills: Icon of tools & textual description of knowledge 
+    - Trainings & Certifications: Udemy certs, DataCamp, AWS, Google, 
+
+*/
+
 function App() {
   return (
     <div className="App">
