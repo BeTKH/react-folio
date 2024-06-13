@@ -82,7 +82,7 @@ function App() {
         </main>
       </div>
       <footer>
-        <p>© 2024 [Your Name]</p>
+        <p>© 2024 Bekalu Tadesse</p>
       </footer>
     </div>
   );
