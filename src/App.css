@@ -1,38 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root, .App {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 .App {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrapper {
+  flex: 1;
+}
+
+header.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 250px; /* Increased size */
+  height: 250px; /* Increased size */
+  margin-right: 25px;
+  border: 5px solid #a19d9d; /* Gray border */
+}
+
+.intro-text {
+  max-width: 600px;
+  text-align: left;
+}
+
+.intro-text h1 {
+  font-size: 3em; /* Increased size */
+  margin-bottom: 20px;
+  font-weight: bold; /* Added text style */
+}
+
+.intro-text p {
+  font-size: 2em; /* Increased size */
+  margin: 10px 0;
+  line-height: 1.5; /* Added line height for better readability */
+}
+
+.intro-text a {
+  color: #0073e6;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.intro-text a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@media (max-width: 768px) {
+  header.intro {
+    flex-direction: column;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .profile-pic {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .intro-text {
+    text-align:center;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
